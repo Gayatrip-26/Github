@@ -14,8 +14,8 @@ Major Component of project -1. console commands-
                                 (iii)Repository
                                 (iv)Issue
                                 3. Database Schema and Model-(i)User Schema
-                            (ii)Repository Schema
-                            (iii)Issue Schema
+                                                             (ii)Repository Schema
+                                                             (iii)Issue Schema
                             4. API Endpoints-
                                 Ex./allUsers all are write in routers issue, main, repo, user related are basic endpoints.Every endpoint is link with there corresponding controller.means as ex. if you click delete issue link with issue controller its redirect you to the that delete function which you have created.
 
@@ -29,6 +29,24 @@ Major Component of project -1. console commands-
 #aws-config file to coonect bucket
 #In controllers make all six command files. 
 3.npm install yargs - This command helps us to to reads command from internal. and redirect to that comand file.
+4.node index.js init 
+5.node index.js add filename.txt
+6.npm install uuid - for every commit its crate a new uniqe ID. V1-V5 versions are available V1 had simpliest ID and V5 is hard (236 bits)and strong secure ID.
+
+
+***Backend Files***
+Index.js - Use to understand the command and to the respective controller pass the overall 
+          controll.
+          yargs is a important dependency to read the commands.and hidebin is a utility of yargs 
+          helps to read arguents.
+          demandCommand -
+          
+***Controllers Folder Logic***
+init.js = By giving the init command in terminal the controller which is write in index.js file give that init controll to the init.js file.
+add.js = 
+Commit.js logic- We have kept a temperary file in staging folder we have to a new folder with a commit id and that folder we have to move that file along with creating a json file where we storing time stang (when we store).
+
+
 
 
 
